@@ -17,7 +17,6 @@ with open('file.txt', 'r', encoding="utf-8") as file:
     for val in words:
         words[i] = val.split(":")
         i += 1
-    print(words)
 
 class MainLayout(FloatLayout):
     stopwatch_txt = StringProperty()
